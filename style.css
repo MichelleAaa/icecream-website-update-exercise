@@ -1,0 +1,31 @@
+body {
+    font-family: 'Mingzat', sans-serif;
+}
+
+h1 {
+    color: rgb(80, 78, 78);
+    font-size: 5rem;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.7rem;
+}
+
+.checkout-button {
+    background-image: linear-gradient(to bottom right, #50C9C3,#96DEDA);
+    color: white;
+}
+
+thead {
+    background-image: linear-gradient(to bottom right, #50C9C3, #96DEDA);
+}
+
+.table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
+    vertical-align: middle;
+}
